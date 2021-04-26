@@ -1,0 +1,8 @@
+query GetEpisodesResults{
+    episodes{
+        results{
+            name
+            episode
+        }
+    }
+}
