@@ -20,7 +20,7 @@ public class Episodes {
     }
 
     public GetEpisodesResultsQuery.Episodes getEpisodes() {
-        return episodes;
+        return this.episodes;
     }
 
     public void setEpisodes(GetEpisodesResultsQuery.Episodes episodes) {
