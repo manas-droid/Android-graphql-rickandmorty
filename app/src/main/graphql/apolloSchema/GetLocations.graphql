@@ -1,0 +1,12 @@
+query LocationResults{
+    locations{
+        results{
+            name
+            dimension
+            residents{
+                name
+                image
+            }
+        }
+    }
+}
